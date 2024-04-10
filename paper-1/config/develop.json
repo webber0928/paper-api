@@ -1,0 +1,37 @@
+{
+    "prefix": "develop",
+    "mode": "develop",
+    "service": {
+        "account": {
+            "protocol": "http",
+            "url": "localhost:3000",
+            "path": "api/accounts/v1"
+        }
+    },
+    "maintenance": {
+        "startedAt": null,
+        "endedAt": null
+    },
+    "mysql": {
+        "database": "chatbot_develop",
+        "username": "root",
+        "password": "0000",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "dialect": "mysql"
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "db": 0,
+        "password": "develop",
+        "expiresIn": 3600,
+        "tokenExpiredSeconds": 3600
+    },
+    "JWT": {
+        "secret": "develop-74466cb0543598d17560101074ef1bcf",
+        "expiresIn": "15m",
+        "tokenExpired": 900,
+        "refreshTokenExpired": 3600
+    }
+}

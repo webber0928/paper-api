@@ -1,24 +1,48 @@
 {
-    "name": "paper-1",
+    "name": "chatbot-api",
     "version": "1.0.0",
-    "description": "",
+    "description": "論文需求的 API",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npx ts-node src/index.ts",
-        "dev": "nodemon src/index.ts"
+        "general-api": "NODE_ENV=localhost npx nodemon ./bin/api.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:webber0928/paper-api.git"
+    },
+    "author": "Webber Wu",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/webber0928/paper-api/issues"
+    },
+    "homepage": "https://github.com/webber0928/paper-api/blob/main/README.md",
     "dependencies": {
-        "@types/koa": "^2.15.0",
-        "@types/koa-router": "^7.4.8",
-        "koa": "^2.15.2",
-        "koa-router": "^12.0.1",
-        "nodemon": "^3.1.0",
-        "save-dev": "^0.0.1-security",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.4.4"
+        "app-root-path": "^3.0.0",
+        "axios": "^0.19.2",
+        "bcrypt": "^5.0.0",
+        "chance": "^1.1.7",
+        "cheerio": "^1.0.0-rc.3",
+        "config": "^3.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "koa": "^2.13.0",
+        "koa-body": "^4.2.0",
+        "koa-logger": "^3.2.1",
+        "koa-morgan": "^1.0.1",
+        "koa-router": "^9.4.0",
+        "koa2-cors": "^2.0.6",
+        "lodash": "^4.17.20",
+        "mime": "^2.4.6",
+        "moment": "^2.27.0",
+        "mysql2": "^2.1.0",
+        "pretty-error": "^2.1.1",
+        "redis": "^3.0.2",
+        "sequelize": "^6.3.4",
+        "uuid": "^8.3.0"
+    },
+    "devDependencies": {
+        "chardet": "^1.2.1",
+        "iconv-jschardet": "^2.0.11",
+        "nodemon": "^2.0.4",
+        "sequelize-cli": "^6.2.0"
     }
 }

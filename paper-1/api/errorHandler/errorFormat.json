@@ -1,0 +1,87 @@
+{
+    "1000": {
+        "status": 500,
+        "code": 1000,
+        "message": "undefined error"
+    },
+    "1001": {
+        "status": 400,
+        "code": 1001,
+        "message": "sequelize transaction error"
+    },
+    "1002": {
+        "status": 404,
+        "code": 1002,
+        "message": "strategy not found"
+    },
+    "1003": {
+        "status": 400,
+        "code": 1003,
+        "message": "strategy status must be `REVIEWED`"
+    },
+    "1004": {
+        "status": 400,
+        "code": 1004,
+        "message": "strategy status must be `APPROVED`"
+    },
+    "1005": {
+        "status": 404,
+        "code": 1005,
+        "message": "user not found"
+    },
+    "1006": {
+        "status": 400,
+        "code": 1006,
+        "message": "wrong password"
+    },
+    "1007": {
+        "status": 400,
+        "code": 1007,
+        "message": "login expired, please login again"
+    },
+    "1008": {
+        "status": 400,
+        "code": 1008,
+        "message": "refreshToken required"
+    },
+    "1009": {
+        "status": 400,
+        "code": 1009,
+        "message": "authorization required"
+    },
+    "1010": {
+        "status": 400,
+        "code": 1010,
+        "message": "authorization token format error"
+    },
+    "1011": {
+        "status": 400,
+        "code": 1011,
+        "message": "jwt decode error"
+    },
+    "1012": {
+        "status": 400,
+        "code": 1012,
+        "message": "you have no permission to access"
+    },
+    "1013": {
+        "status": 400,
+        "code": 1013,
+        "message": "email exist"
+    },
+    "1014": {
+        "status": 400,
+        "code": 1014,
+        "message": "role not found, please contact webzz service"
+    },
+    "1015": {
+        "status": 400,
+        "code": 1015,
+        "message": "please refresh jwt token"
+    },
+    "1016": {
+        "status": 503,
+        "code": 1016,
+        "message": "service in maintain"
+    }
+}

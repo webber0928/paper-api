@@ -1,0 +1,16 @@
+{
+  "localhost": {
+    "username": "root",
+    "password": "0000",
+    "database": "chatbot_develop",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "develop": {
+    "username": "root",
+    "password": "0000",
+    "database": "chatbot_develop",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
